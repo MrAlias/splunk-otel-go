@@ -52,7 +52,7 @@ func TestMain(m *testing.M) {
 		log.Fatalf("Could not connect to docker: %v", err)
 	}
 
-	resource, err := pool.Run("mongo", "5.0", nil)
+	resource, err := pool.Run("mongo", "3.0", nil)
 	if err != nil {
 		log.Fatalf("Could not create mongo container: %v", err)
 	}

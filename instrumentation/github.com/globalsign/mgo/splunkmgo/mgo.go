@@ -190,3 +190,18 @@ func spanName(cmd interface{}) string {
 	// Fallback to something.
 	return "mongo"
 }
+
+/*
+func (db *Database) AddUser(username, password string, readOnly bool) error
+func (db *Database) C(name string) *Collection
+func (db *Database) CollectionNames() ([]string, error)
+func (db *Database) CreateView(view string, source string, pipeline interface{}, collation *Collation) error
+func (db *Database) DropDatabase() error
+func (db *Database) FindRef(ref *DBRef) *Query
+func (db *Database) GridFS(prefix string) *GridFS
+func (db *Database) Login(user, pass string) error
+func (db *Database) Logout()
+func (db *Database) RemoveUser(user string) error
+func (db *Database) UpsertUser(user *User) error
+func (db *Database) With(s *Session) *Database
+*/
