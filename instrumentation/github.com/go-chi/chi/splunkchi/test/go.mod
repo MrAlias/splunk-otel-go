@@ -3,7 +3,7 @@ module github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-chi/chi/
 go 1.18
 
 require (
-	github.com/go-chi/chi v1.5.4
+	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/signalfx/splunk-otel-go/instrumentation/github.com/go-chi/chi/splunkchi v1.2.0
 	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/otel v1.11.2
@@ -18,7 +18,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/signalfx/splunk-otel-go v1.2.0 // indirect
 	github.com/signalfx/splunk-otel-go/instrumentation/internal v1.2.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/net v0.5.0 // indirect
+	golang.org/x/sys v0.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
